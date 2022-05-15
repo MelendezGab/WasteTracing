@@ -49,40 +49,52 @@
     </div>
 </nav>
 
+
+
 <div class = "main_container">
     <div class="div_container">
     <h1><%= "Waste collector" %></h1><br/>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+                    <form method="post" action="myServlet" autocomplete="off">
+                        <div class="form-group row">
+                            <div class="col-sm-6">
+                                <label for="name">Waste type</label>
+                                <select class="form-control" name="name" id="name">
+                                    <option value="pet">Plastic bottle</option>
+                                    <option value="glassbottle">Glass bottle</option>
+                                    <option value="aluminiumcan">Aluminium can</option>
+                                    <option value="plasticbag">Plastic bag</option>
+                                    <option value="cigarrette">Cigarrette butt</option>
+                                    <option value="diaper">Disposable diapers</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="amount">Amount</label>
+                                <input type="text" id="amount" name="amount" class="form-control" placeholder="Numeric">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-6">
+                                <label for="waste_location">Location</label>
+                                <select name="waste_location" id="waste_location" class="form-control">
+                                    <option value="cancun">Cancun</option>
+                                    <option value="tulum">Tulum</option>
+                                    <option value="puesc">Puerto Escondido</option>
+                                    <option value="huatulco">Huatulco</option>
+                                    <option value="acapulco">Acapulco</option>
+                                    <option value="mazatlan">Mazatlan</option>
+                                </select>
+                            </div>
+                        </div>
+                        <input type="submit" class="btn btn-primary px-4 float-right" value="Send"></input>
+                    </form>
+                </div>
+            </div>
+        </div>
 
-        <form method="post" action="myServlet" autocomplete="off">
 
-                <label for="name">Waste type</label><br>
-                <select class="form_element" name="name" id="name">
-                    <option value="pet">Plastic bottle</option>
-                    <option value="glassbottle">Glass bottle</option>
-                    <option value="aluminiumcan">Aluminium can</option>
-                    <option value="plasticbag">Plastic bag</option>
-                    <option value="cigarrette">Cigarrette butt</option>
-                    <option value="diaper">Disposable diapers</option>
-                </select><br><br>
-
-                <label for="amount">Amount:</label><br>
-                <input type="text" id="amount" name="amount" class="form_element"><br>
-
-                <label for="waste_location">Location:</label><br>
-                <select name="waste_location" id="waste_location" class="form_element">
-                    <option value="cancun">Cancun</option>
-                    <option value="tulum">Tulum</option>
-                    <option value="puesc">Puerto Escondido</option>
-                    <option value="huatulco">Huatulco</option>
-                    <option value="acapulco">Acapulco</option>
-                    <option value="mazatlan">Mazatlan</option>
-                </select><br><br>
-
-                <input type="submit" value="Send">
-
-
-
-        </form><br><br>
 
         <a href="info.html"> More information: </a>
 
