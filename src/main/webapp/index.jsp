@@ -76,7 +76,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <label for="amount">Amount</label>
-                                <input type="text" id="amount" name="amount" class="form-control" placeholder="Numeric">
+                                <input type="text" id="amount" name="amount" class="form-control" placeholder="Enter a numeric value">
                             </div>
                         </div>
                         <div class="form-group row">
@@ -100,7 +100,7 @@
 
 
 
-        <a href="info.html"> More information: </a>
+        <a href="information.html"> More information: </a>
 
         <div id="map-canvas" style="height:300px; width:100%"></div>
     </div>

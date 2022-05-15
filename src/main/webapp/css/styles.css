@@ -18,11 +18,24 @@
     justify-content: center;
 }
 
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    vertical-align: center;
+}
+
+
 .div_container {
     position: absolute;
-    width: 50%;
+    width: 70%;
     background-color: #ccd4dc;
     border-radius: 15px;
+
+}
+
+.fill_image{
 
 }
 
@@ -129,7 +142,7 @@ section{
 .child2_sec1{
     width: 50%;
     height: 100%;
-    background-color: #1090e4;
+    background-color: #7fc3e4;
     float: right;
 }
 
@@ -153,11 +166,12 @@ section{
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .div_img img{
-    width: 70%;
+    width: 100%;
     position: absolute;
-    bottom: 0;
+
 }
 .vaccine_information{
     position: absolute;
@@ -200,7 +214,7 @@ section{
     height: 25%;
     background-color: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;    
 }
 .child2_sec2{
@@ -250,7 +264,7 @@ section{
     color: #728097;
 }
 .img-box-sec2{
-    width: 22%;
+    width: 10%;
 }
 .img-box-sec2 img{
     max-width: 100%;
