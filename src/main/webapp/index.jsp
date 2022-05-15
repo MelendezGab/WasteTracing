@@ -53,7 +53,11 @@
 
 <div class = "main_container">
     <div class="div_container">
-    <h1><%= "Waste collector" %></h1><br/>
+
+        <div class="d-flex justify-content-center">
+            <div><h1><%= "Waste registration" %></h1></div>
+        </div>
+
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-10 mx-auto">
