@@ -5,6 +5,10 @@
     width: 100%;
 }
 
+.navbar-nav > .active > a {
+    background-color: #d0e3eb;
+}
+
 .form_element{
     width: 30%;
 }
