@@ -1,5 +1,25 @@
+.bg-light{
+    background-color: #f4f4f4;
+}
+.map_container {
+    width: 100%;
+}
 
-body{
+.form_element{
+    width: 30%;
+}
+
+.main_container{
+    display: flex;
+    justify-content: center;
+}
+
+.div_container {
+    position: absolute;
+    width: 50%;
+    background-color: #ccd4dc;
+    border-radius: 15px;
+
 }
 
 .main_menu {

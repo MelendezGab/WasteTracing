@@ -36,69 +36,60 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#"> Information </a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
+
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link disabled" href="#">About</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
     </div>
 </nav>
 
-    <h1><%= "Collected waste" %></h1><br/>
+<div class = "main_container">
+    <div class="div_container">
+    <h1><%= "Waste collector" %></h1><br/>
 
-    <form method="post" action="myServlet" autocomplete="off">
-        <div class="form-group child_blue">
-            <label for="name">Waste type</label><br>
-            <select name="name" id="name">
-                <option value="pet">Plastic bottle</option>
-                <option value="glassbottle">Glass bottle</option>
-                <option value="aluminiumcan">Aluminium can</option>
-                <option value="plasticbag">Plastic bag</option>
-                <option value="cigarrette">Cigarrette butt</option>
-                <option value="diaper">Disposable diapers</option>
-            </select><br><br>
+        <form method="post" action="myServlet" autocomplete="off">
 
-            <label for="amount">Amount:</label><br><br>
-            <input type="text" class="form-control" id="amount" name="amount"><br><br>
+                <label for="name">Waste type</label><br>
+                <select class="form_element" name="name" id="name">
+                    <option value="pet">Plastic bottle</option>
+                    <option value="glassbottle">Glass bottle</option>
+                    <option value="aluminiumcan">Aluminium can</option>
+                    <option value="plasticbag">Plastic bag</option>
+                    <option value="cigarrette">Cigarrette butt</option>
+                    <option value="diaper">Disposable diapers</option>
+                </select><br><br>
 
-            <label for="waste_location">Location:</label><br><br>
-            <select name="waste_location" id="waste_location">
-                <option value="cancun">Cancun</option>
-                <option value="tulum">Tulum</option>
-                <option value="puesc">Puerto Escondido</option>
-                <option value="huatulco">Huatulco</option>
-                <option value="acapulco">Acapulco</option>
-                <option value="mazatlan">Mazatlan</option>
-            </select><br><br>
+                <label for="amount">Amount:</label><br>
+                <input type="text" id="amount" name="amount" class="form_element"><br>
 
-            <input type="submit" value="Send">
+                <label for="waste_location">Location:</label><br>
+                <select name="waste_location" id="waste_location" class="form_element">
+                    <option value="cancun">Cancun</option>
+                    <option value="tulum">Tulum</option>
+                    <option value="puesc">Puerto Escondido</option>
+                    <option value="huatulco">Huatulco</option>
+                    <option value="acapulco">Acapulco</option>
+                    <option value="mazatlan">Mazatlan</option>
+                </select><br><br>
 
-        </div>
+                <input type="submit" value="Send">
 
-    </form><br><br>
 
-    <a href="info.html"> More informationasw: </a>
 
-    <div id="map-canvas" style="height:300px; width:500px"></div>
+        </form><br><br>
+
+        <a href="info.html"> More information: </a>
+
+        <div id="map-canvas" style="height:300px; width:100%"></div>
+    </div>
+</div>
+
 
 
 </body>
