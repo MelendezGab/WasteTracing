@@ -30,5 +30,5 @@ Y con la IP pública proporcionada por Azure nos pudimos conectar a nuestra apli
 
 ![imagen](./azure/despligue.png)
 
-![imagen](./azure/despligue2.png)
+![imagen](./azure/despliegueinfo.png)
 
