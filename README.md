@@ -6,7 +6,13 @@ https://github.com/FernandaOchoa/JakartaDocker
 
 Link de la aplicación web [WasteTracing](http://40.124.128.183:8080/MyWebApp/)
 
+Link [Tik Tok](https://www.tiktok.com/@melendezgab/video/7098131974027545862?_t=8SLWJ31qVRl&_r=1)
+
 <h2>Despliegue del Proyecto en Azure</h2>
+
+Diagrama
+
+![imagen](./azure/diagramaazure.png)
 
 Para desplegar el proyecto en Azure creamos una máquina virtual(VM)
 <br>
