@@ -4,8 +4,10 @@ WebApp con Jakarta y Docker basada en el repositorio de la MC Fernanda Ochoa.
 
 https://github.com/FernandaOchoa/JakartaDocker
 
+Link de la aplicación web [WasteTracing](http://40.124.128.183:8080/MyWebApp/)
 
 <h3>Despliegue de Proyecto en Azure</h3>
+
 Para desplegar el proyecto en Azure creamos una máquina virtual(VM)
 <br>
 Azure automaticamente nos creó los recurcusos necesarios para conectarnos a la VM
@@ -25,3 +27,8 @@ Para poder conectarse a la aplicación web se tiene que abrir los puerto necesar
 Y con la IP pública proporcionada por Azure nos pudimos conectar a nuestra aplicación
 
 ![imagen](./azure/pagina.png)
+
+![imagen](./azure/despligue.png)
+
+![imagen](./azure/despligue2.png)
+
