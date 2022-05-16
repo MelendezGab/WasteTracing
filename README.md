@@ -20,7 +20,7 @@ Con docker compose se desplegó la aplicación web
 
 ![imagen](./azure/docker%20azure.png)
 
-Para poder conectarse a la aplicación web se tuvo que abrir el puerto 8080 con las reglas de los grupos de seguridad de red(NSO)
+Para poder conectarse a la aplicación web se tuvo que abrir el puerto 8080 con las reglas de los grupos de seguridad de red (NSG)
 
 ![imagen](./azure/puertos.png)
 
