@@ -4,8 +4,16 @@ WebApp con Jakarta y Docker basada en el repositorio de la MC Fernanda Ochoa.
 
 https://github.com/FernandaOchoa/JakartaDocker
 
+Link de la aplicación web [WasteTracing](http://40.124.128.183:8080/MyWebApp/) (Desactivada por el momento)
 
-<h3>Despliegue de Proyecto en Azure</h3>
+Link [Tik Tok](https://www.tiktok.com/@melendezgab/video/7098131974027545862?_t=8SLWJ31qVRl&_r=1)
+
+<h2>Despliegue del Proyecto en Azure</h2>
+
+Diagrama
+
+![imagen](./azure/diagramaazure.png)
+
 Para desplegar el proyecto en Azure creamos una máquina virtual(VM)
 <br>
 Azure automaticamente nos creó los recurcusos necesarios para conectarnos a la VM
@@ -18,10 +26,25 @@ Con docker compose se desplegó la aplicación web
 
 ![imagen](./azure/docker%20azure.png)
 
-Para poder conectarse a la aplicación web se tiene que abrir los puerto necesarios, en este caso se permitió la conexión con el puerto 8080
+Para poder conectarse a la aplicación web se tuvo que abrir el puerto 8080 con las reglas de los grupos de seguridad de red (NSG)
 
 ![imagen](./azure/puertos.png)
 
 Y con la IP pública proporcionada por Azure nos pudimos conectar a nuestra aplicación
 
 ![imagen](./azure/pagina.png)
+
+
+<h3> Capturas de Pantalla </h3>
+
+Registro de datos
+
+![imagen](./azure/despligue.png)
+
+Info 
+
+![imagen](./azure/despliegueinfo.png)
+
+Registro de la Base de Datos
+
+![imagen](./azure/basededatos.png)
