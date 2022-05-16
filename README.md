@@ -4,7 +4,7 @@ WebApp con Jakarta y Docker basada en el repositorio de la MC Fernanda Ochoa.
 
 https://github.com/FernandaOchoa/JakartaDocker
 
-Link de la aplicación web [WasteTracing](http://40.124.128.183:8080/MyWebApp/) (Desactivada por el momento)
+Link de la aplicación web [WasteTracing](http://40.124.128.183:8080/MyWebApp/) (Activa)
 
 Link [Tik Tok](https://www.tiktok.com/@melendezgab/video/7098131974027545862?_t=8SLWJ31qVRl&_r=1)
 
